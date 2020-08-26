@@ -1,0 +1,14 @@
+parameters:
+    # Needed only when you use "rules" block below
+    level: 7
+    ### inferPrivatePropertyTypeFromConstructor: false
+    paths:
+        - src
+
+    # Sometimes needed
+    autoload_files:
+        - autoload.php
+
+    # Prevents scanning given folders/files
+    excludes_analyse:
+        - src/Core/Functions.php
